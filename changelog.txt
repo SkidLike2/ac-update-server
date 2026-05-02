@@ -2,13 +2,15 @@
 [+] Anti-Capture & Streamproof Fixes
 [+] Removed Forced Black Screen: Deleted all instances of (0x11) to prevent permanent black screens on OBS/Discord.
 [+] Integrated Numpad (+) Input Handler:
-- Short Tap: Toggles "Clean" Streamproof (WDA_MONITOR).
+- Short Tap: Toggles Black Screen.
 - 3s Hold: Toggles Alt+Tab and Taskbar visibility.
 [+] Optimized
+[+] Added Page Up (PGUP) Toggle: Integrated a dedicated Page Up hotkey for toggling the streamproof loader during update debugging and testing.
 [!] News & Compatibility
 [!] Action! Recorder Note: Streamproof is now partially functional with Action! Recorder. Users may find success depending on their capture settings. (Currently Fixing) WILL NOT SHOW ON RECORDERS
 [!] Kernel-Level Research: Currently developing a dedicated fix for kernel-level streamproof screen capture to bypass advanced recording hooks.
 [fixed] Internal Memory Logic
+
 
 04/23/2026 - v1.0.0
 [+] Initial loader build complete
