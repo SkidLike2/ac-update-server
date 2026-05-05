@@ -1,0 +1,17 @@
+05/02/2026 - CS2 Cheat Update
+
+[+] ESP Enhancements
+    - Added Visible Dynamic Visibility Check (BETA)
+    - Per-bone visibility validation for accurate target detection
+    - Optional GUI toggles for ESP customization
+
+[+] Aimbot Features (Currently Finishing)
+    - Core aimbot implementation in progress
+    - Target selection logic
+    - Smoothing adjustments
+    - Optional GUI toggles for AIM customization
+[fixed] Internal Memory Logic
+
+[!] In Development: Kernel-level streamproof screen capture
+
+[*] Status: ESP & Visibility checks active | Aimbot finishing soon | Undetected
