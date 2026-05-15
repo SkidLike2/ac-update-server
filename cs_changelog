@@ -1,3 +1,23 @@
+05/15/2026 - 0x00 CS2 Cheat Update V 3.0
+
+[+] ESP — Box System Overhaul
+- Restored complete functionality for 2D Box, 2D Corners, and 3D Box variants.
+- Synchronized 3D box fill shading with dynamic positional occlusion coloring for precise outline-to-fill tracking (the 3D boxes now dynamically split colors in real-time; if an enemy is halfway behind a wall, the exposed section renders the visible color while the hidden section renders the occluded color, matching the outline and inner fill perfectly along the surface edge)
+- Preserved the default gradient fill mechanics intentionally for 2D and Corner box layouts.
+- Routed all box styles through the omni-directional seamless resolver to normalize visibility color blending globally.
+[+] ESP — Visibility Check Improvements
+    - Snap Line now respects Visible Check:
+    - Resolved an inconsistency where visibility states failed to apply evenly across all box configurations.
+
+[+] ESP — Skeleton Fix
+    - Restructured skeleton visibility behavior to follow designated conditional logic rather than style indices.
+    - Fixed an issue where visibility checks failed to apply correctly across varying skeleton styles.
+
+[!] Notes
+    - Chams material rendering still unconditional (all objects) pending
+      verified model name offsets — player-only filtering coming next update
+    - Aimbot public release estimate unchanged: within days pending final checks
+
 5/8/2026 - 0x00 CS2 Cheat Update V 2.0
 [+] Game Version Compatibility Update
 The software has been successfully updated to support the latest game version.
