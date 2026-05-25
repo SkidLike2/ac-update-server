@@ -1,1 +1,92 @@
-
+{
+  "version": 4.0,
+  "min_version": 4.0,
+  "last_updated": "2025-01-15",
+  "bypass_enabled": true,
+  "hooks": {
+    "kernel32": [
+      "LoadLibraryA",
+      "LoadLibraryW", 
+      "LoadLibraryExA",
+      "LoadLibraryExW",
+      "FreeLibrary",
+      "VirtualAlloc",
+      "VirtualAllocEx",
+      "VirtualProtect",
+      "VirtualProtectEx",
+      "WriteProcessMemory",
+      "ReadProcessMemory",
+      "CreateRemoteThread",
+      "CreateRemoteThreadEx",
+      "QueueUserAPC",
+      "SetThreadContext",
+      "GetThreadContext",
+      "ResumeThread",
+      "SuspendThread",
+      "CreateProcessA",
+      "CreateProcessW"
+    ],
+    "ntdll": [
+      "LdrLoadDll",
+      "LdrUnloadDll",
+      "NtCreateThreadEx",
+      "NtWriteVirtualMemory",
+      "NtProtectVirtualMemory",
+      "NtMapViewOfSection",
+      "NtUnmapViewOfSection",
+      "NtOpenFile",
+      "NtClose"
+    ],
+    "KernelBase": [
+      "ResumeThread",
+      "CreateRemoteThread"
+    ]
+  },
+  "hook_patterns": [
+    {
+      "name": "jmp_rel32",
+      "bytes": [0xE9],
+      "length": 5
+    },
+    {
+      "name": "jmp_short",
+      "bytes": [0xEB],
+      "length": 2
+    },
+    {
+      "name": "rex_jmp",
+      "bytes": [0x48, 0xE9],
+      "length": 6
+    },
+    {
+      "name": "call",
+      "bytes": [0xE8],
+      "length": 5
+    },
+    {
+      "name": "push_ret",
+      "bytes": [0x68],
+      "length": 6
+    },
+    {
+      "name": "mov_rax_jmp",
+      "bytes": [0x48, 0xB8],
+      "length": 12
+    }
+  ],
+  "delays": {
+    "min_unhook_ms": 50,
+    "max_unhook_ms": 200,
+    "min_restore_ms": 20,
+    "max_restore_ms": 100,
+    "min_write_ms": 300,
+    "max_write_ms": 800,
+    "min_thread_ms": 500,
+    "max_thread_ms": 1200
+  },
+  "self_destruct": {
+    "enabled": true,
+    "corruption_passes": 5,
+    "kernel_delete": true
+  }
+}
