@@ -1,0 +1,34 @@
+// Run this separately to generate the binary file
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <cstring>
+
+struct HookSignature {
+    uint8_t pattern[16];
+    uint8_t mask[16];
+    uint8_t replacement[16];
+    uint32_t length;
+    uint8_t enabled;
+};
+
+int main() {
+    std::vector<HookSignature> signatures;
+    
+    // Example: NtCreateThreadEx hook pattern
+    HookSignature sig1 = {0};
+    // Pattern for NtCreateThreadEx prologue
+    uint8_t pattern1[] = {0x4C, 0x8B, 0xD1, 0xB8, 0xC0, 0x00, 0x00, 0x00};
+    uint8_t mask1[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+    memcpy(sig1.pattern, pattern1, 8);
+    memcpy(sig1.mask, mask1, 8);
+    sig1.length = 8;
+    sig1.enabled = 1;
+    signatures.push_back(sig1);
+    
+    std::ofstream file("hook_signatures.bin", std::ios::binary);
+    file.write((char*)signatures.data(), signatures.size() * sizeof(HookSignature));
+    file.close();
+    
+    return 0;
+}
