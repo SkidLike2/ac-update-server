@@ -1,3 +1,19 @@
+[+] Game Version Compatibility Update
+
+[+] Added Radar System
+- Added Square & Circular radar overlay with adjustable range
+- Three display modes: Circle, Arrow, Circle+Arrow (enemy facing direction)
+- Custom cross line color & show/hide toggle
+- Team check & visibility-based enemy coloring
+
+[!] Notes
+
+Radar window can be moved, resized, or disabled via menu
+
+Works alongside existing ESP features
+
+[*] Status: Aimbot active | ESP working | Radar Added | Undetected
+
 05/29/2026 - 0x00 CS2 Cheat Update V 6.0
 
 [+] Game Version Compatibility Update
