@@ -1,3 +1,20 @@
+06/02/2026 - 0x00 CS2 Cheat Update V 7.2
+
+[+] New Feature Radar Improvements
+
+* Added Shooting Indicator system
+- Detects when an enemy fires their weapon.
+- Enemy radar blips temporarily enlarge upon shooting, making active threats easier to identify.
+- Adjustable pulse duration (0.1s - 1.0s).
+- Adjustable scale multiplier (1.0x - 2.5x).
+- Works with all supported radar display styles.
+- Designed to improve target awareness without cluttering the radar.
+- Fully customizable through the Radar tab.
+
+* Added Aim Warning system
+
+[*] Status: Aimbot Active | ESP Working | Radar Enhanced | Undetected
+
 06/02/2026 - 0x00 CS2 Cheat Update V 7.1
 
 [+] Aimbot Fixes
