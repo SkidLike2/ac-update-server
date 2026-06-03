@@ -5,8 +5,8 @@
 * Added Shooting Indicator system
 - Detects when an enemy fires their weapon.
 - Enemy radar blips temporarily enlarge upon shooting, making active threats easier to identify.
-- Adjustable pulse duration (0.1s - 1.0s).
-- Adjustable scale multiplier (1.0x - 2.5x).
+- Adjustable pulse duration.
+- Adjustable scale multiplier.
 - Works with all supported radar display styles.
 - Designed to improve target awareness without cluttering the radar.
 - Fully customizable through the Radar tab.
