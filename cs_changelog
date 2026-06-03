@@ -1,3 +1,19 @@
+06/03/2026 - 0x00 CS2 Cheat Update V 7.3
+
+[+] Aim Curve Fixes
+* Fully fixed snapping issues affecting the Aim Curve system
+* Reworked the Aim Curve system to deliver more fluid aiming behavior
+* Improved curve blending and frame to frame consistency
+* Refined Curve Smoothing behavior across all curve configurations
+* Improved stability when using Humanization and Micro Adjustment features
+
+[!] Radar
+* Aim Warning System temporarily disabled for further refinement
+
+[!] Additional backend optimizations completed.
+
+[*] Status: Aimbot Active | ESP Working | Radar Active | Undetected
+
 06/02/2026 - 0x00 CS2 Cheat Update V 7.2
 
 [+] New Feature Radar Improvements
