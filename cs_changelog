@@ -1,20 +1,14 @@
 06/02/2026 - 0x00 CS2 Cheat Update V 7.1
 
-[+] Latest Game Version Support
-Updated for the newest CS2 update.
-
 [+] Aimbot Fixes
-
 * Fixed target switch delay not functioning correctly
 * Fixed an issue where old target delay logic could prevent target selection
 
 [+] Radar Improvements
-
 * Added dedicated Radar tab
 * Fully customizable radar settings
 
 [!] Notes
-
 Additional backend improvements and refinements have been made.
 
 [*] Status: Aimbot Active | ESP Working | Radar Added | Undetected
