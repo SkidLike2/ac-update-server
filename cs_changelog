@@ -1,3 +1,22 @@
+06/03/2026 - 0x00 CS2 Cheat Update V 7.4
+
+[+] Targeting Delay Improvements
+* Renamed "Target Switch Separator" to "Target Delay" for improved clarity and accuracy
++ Added Time to Target
+* Added configurable activation delay before aimbot engagement
+* Delays initial aim movement after pressing the aim key
++ Added Stick to Target
+* Added option to remain locked onto the first acquired target
+* Prevents switching to other players while the current target remains valid
++ Added Freeze on Invisible
+* Added option to halt aim movement when a locked target becomes invisible
+* Prevents aiming at last known positions behind walls or cover
+* Reduces unnatural corrections and sudden aim adjustments
+
+[!] Additional backend optimizations completed.
+
+[*] Status: Aimbot Active | ESP Working | Radar Active | Undetected
+
 06/03/2026 - 0x00 CS2 Cheat Update V 7.3
 
 [+] Aim Curve Fixes
