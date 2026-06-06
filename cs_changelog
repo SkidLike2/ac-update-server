@@ -1,3 +1,27 @@
+06/06/2026 - 0x00 CS2 Cheat Update V 7.5
+
+[+] [!] Rage Mode
+* Currently non-functional
+* Do not use until further notice
+* Scheduled for future repair
+
+[+] Static Bone V2
+* Expanded bone selection dropdown
+* Added support for all available bone indexes
+* Multiple bone targets can now be selected simultaneously
+* Allows specialized targeting setups (Head, Neck, Feet, etc.)
+* Improved headshot accuracy compared to Static Bone V1
+* Corrected close-range head targeting behavior
+
+[+] Smooth Bone Transition
+* Added optional Smooth Bone Transition checkbox
+* Provides smoother movement when switching between selected bones
+
+[!] Note
+* Open the Static Bone V2 dropdown and scroll to view all available bone selections.
+
+[*] More updates and improvements coming soon.
+
 06/03/2026 - 0x00 CS2 Cheat Update V 7.4
 
 [+] Targeting Delay Improvements
