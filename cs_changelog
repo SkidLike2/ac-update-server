@@ -1,3 +1,21 @@
+07/19/2026 - 0x00 CS2 Cheat Update V 12.1 
+
+[+] Radar
+* Fixed entity tracking and visibility filtering
+* Corrected directional indicators for all supported entities
+
+[+] Visibility System
+* Updated Restored ESP and Aimbot visibility checks for the latest CS2 Season 5 update
+ 
+[+] Config System
+* Completed profile Save, Load, Delete, Send, and Preload functionality
+* Improved profile loading and module management
+* Added Send Config support across all supported modules
+* Added custom configuration directory support
+* Added integrated configuration activity log
+
+[!] General optimizations
+
 07/18/2026 - 0x00 CS2 Cheat Update V 12.0
 
 [+] Config System
