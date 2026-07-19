@@ -1,3 +1,11 @@
+07/18/2026 - 0x00 CS2 Cheat Update V 12.0
+
+[+] Config System
+* Revamped Config tab
+* Added 11 profile slots with Save, Load, Delete, and Preload functionality
+* Added temporary Sent Configs for module-specific settings *(currently supports ESP & World; additional modules coming soon)*
+* Added Sandbox mode for configuration testing
+
 07/16/2026 - 0x00 CS2 Cheat Update V 11.0
 
 [+] Game Version Compatibility Update - Restored compatibility with the latest 10GB Update
